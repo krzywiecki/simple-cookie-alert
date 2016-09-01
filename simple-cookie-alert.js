@@ -41,6 +41,7 @@ SimpleCookieAlert = function(userSettings) {
     };
 
     this.setAlertStyles = function() {
+        document.write('<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/krzywiecki/simple-cookie-alert/master/styles/styles.min.css">');
         el.id = 'dark';
     };
 
