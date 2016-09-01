@@ -7,8 +7,7 @@
     width: 100%;
     position:fixed;
     left:0;
-    background:rgba(0, 0, 0, 1);
-    color: #ffffff;
+    background: rgba(0, 0, 0, 0.85);
 }
 
 .simple-cookie-alert-container {
@@ -117,9 +116,17 @@
     }
 }
 
-#ligth {
+#light{
     .simple-cookie-alert {
-        background: #ffffff;
+        background: rgba(255, 255, 255, 0.7);
+    }
+
+    .simple-cookie-alert-text {
         color: #000000;
+    }
+
+    .simple-cookie-alert-accept-button {
+        background: #666666;
+        color: #F4F4F4;
     }
 }
